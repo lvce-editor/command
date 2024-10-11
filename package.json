@@ -1,7 +1,7 @@
 {
-  "name": "@lvce-editor/assert",
+  "name": "@lvce-editor/command",
   "version": "0.0.0-dev",
-  "description": "runtime type assertions for catching errors early",
+  "description": "Command module",
   "main": "src/index.js",
   "type": "module",
   "types": "src/index.d.ts",
@@ -12,7 +12,8 @@
     "type-check": "tsc"
   },
   "keywords": [
-    "assert"
+    "lvce-editor",
+    "command"
   ],
   "author": "Lvce Editor",
   "license": "MIT",

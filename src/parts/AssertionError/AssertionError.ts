@@ -1,6 +1,6 @@
-export class AssertionError extends Error {
+export class commandionError extends Error {
   constructor(message: string) {
     super(message)
-    this.name = 'AssertionError'
+    this.name = 'commandionError'
   }
 }

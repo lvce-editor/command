@@ -1,1 +1,1 @@
-export * from './parts/Assert/Assert.ts'
+export * from './parts/command/command.ts'
