@@ -1,1 +1,1 @@
-export * from './parts/command/command.ts'
+export * from './parts/Main/Main.ts'
