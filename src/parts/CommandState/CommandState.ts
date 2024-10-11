@@ -6,7 +6,7 @@ const registerCommand = (key: string, fn: any) => {
   state.commands[key] = fn
 }
 
-export const registerCommands = (commandMap: any) => {
+export const register = (commandMap: any) => {
   for (const [key, value] of Object.entries(commandMap)) {
     registerCommand(key, value)
   }
