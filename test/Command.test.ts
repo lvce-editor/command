@@ -4,7 +4,7 @@ import * as CommandState from '../src/parts/CommandState/CommandState.ts'
 
 test('execute - error - command not found', () => {
   expect(() => Command.execute('not-found')).toThrow(
-    new Error(`command not found not-found`),
+    new Error(`Command not found not-found`),
   )
 })
 
