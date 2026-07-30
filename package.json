@@ -9,6 +9,7 @@
     "test": "node --unhandled-rejections=warn --experimental-vm-modules ./node_modules/jest/bin/jest.js --detectOpenHandles --forceExit",
     "test:watch": "node --unhandled-rejections=warn --experimental-vm-modules ./node_modules/jest/bin/jest.js --watch",
     "build": "node scripts/build.js",
+    "lint": "knip --no-config-hints",
     "type-check": "tsc"
   },
   "keywords": [
@@ -19,18 +20,14 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^30.2.0",
     "@rollup/plugin-babel": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^16.0.3",
     "execa": "^9.6.0",
     "jest": "^30.2.0",
-    "prettier": "^3.6.2",
+    "knip": "^6.29.0",
     "rollup": "^4.52.5",
     "ts-jest": "^29.4.11",
     "typescript": "^6.0.0"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
   },
   "jest": {
     "testMatch": [

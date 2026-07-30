@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "entry": [
+    "rollup.config.js",
+    "scripts/build.js",
+    "scripts/computeNodeModulesCacheKey.js",
+    "src/index.ts",
+    "test/**/*.test.ts"
+  ],
+  "project": ["*.js", "scripts/**/*.js", "src/**/*.ts", "test/**/*.ts"]
+}
